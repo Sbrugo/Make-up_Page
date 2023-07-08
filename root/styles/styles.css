@@ -1,0 +1,148 @@
+.div__contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.main {
+    background-color: #ebd8c9;
+}
+.header {
+    background-color: #ebd8c9;
+    padding: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li:hover {
+    background-color: #A62631;
+}
+nav li a:hover{
+    color: #ebd8c9;
+}
+.header nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+nav li {
+    background-color: #BF9B8E;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 4%;
+    list-style: none;
+    width: 75px;
+}
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+.header img {
+    width: 25%;
+}
+.heroe {
+    background-image: url("/root/img/BANNER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 370px;
+}
+.heroe h3, .heroe h2 {
+    color: #A62631;
+    margin: 1%;
+    margin-left: 50px;
+}
+.heroe__shop{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.giftcard {
+    background-color: #D98997E6;
+}
+.heroe__shop img {
+    width: 30%;
+}
+.heroe__shop__textcontent {
+    width: 50%;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.features article img {
+    height: 30%;
+    width: 100%;
+}
+.labiales {
+    width: 270px;
+}
+.features article {
+    width: max-content;
+}
+.features p {
+    width: 315px;
+}
+.principal {
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.publicidades {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+}
+.publicidad {
+    box-shadow: #BF9B8E 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+.publicidad img {
+    margin: 0%;
+}
+
+footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    padding: 5%;
+    width: 30%;
+}
+.icons {
+    padding: 5%
+}
+footer i {
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.pagina_en_construccion h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 40% 10%;
+}
+
+#shop {
+    width: 230px;
+}
+#shop p {
+    padding: 2%;
+    width: 230px;
+}
